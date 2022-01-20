@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  padding: 2rem;
+  background-color: rgb(241, 240, 240);
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #666;
+  transition: color 0.4s ease-in;
+  padding: 0.2rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer p {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+#nav {
+  background-color: #f6f6f6;
+}
+
+#idSajt {
+  color: orange;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+#idSajt:hover {
+  color: yellow;
+}
+
+span {
+  font-size: 1.4em;
+}
+
+#idOnama {
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+#textOnama {
+  color: black;
+}
+
+span {
+  font-weight: bold;
+}
+
+#mapaSajta {
+  border-bottom: 1px solid black;
+}
+
+.mapasajtaDiv a {
+  text-decoration: none;
+  color: black;
+  margin: 30px;
+}
+
+.mapasajtaDiv a:hover {
+  color: orange;
+}
+
+.mapasajtaDiv {
+  font-size: 1.7em;
+}
+
+#glavneStranice {
+  font-weight: bold;
+}

@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(../img/landscape2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+#nav {
+  background-color: #f6f6f6;
+}
+
+.indexText {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}
+
+#idSajt {
+  color: orange;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+#idSajt:hover {
+  color: yellow;
+}
+
+span {
+  font-size: 1.4em;
+}
+
+/*Copy do ovde  */
+
+.popustBtn {
+  text-align: center;
+  color: yellow;
+  width: 150px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.popustBtn a {
+  text-decoration: none;
+}
+
+#popust:hover {
+  border-bottom: 3.5px solid yellow;
+}
+
+#popust {
+  text-decoration: none;
+  color: yellow;
+  border-bottom: 3px solid yellow;
+  border-radius: 15px;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 8px;
+  transition: border 0.1s ease-in;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+footer {
+  padding: 2rem;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #666;
+  transition: color 0.4s ease-in;
+  padding: 0.2rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer p {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+#indexCon {
+  margin: auto;
+}
